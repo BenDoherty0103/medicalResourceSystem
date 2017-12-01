@@ -12,7 +12,7 @@ package themedicalresourcemanagementsystem.Objects;
  */
 public class WorkWeek {
 
-    int Identification;
+    int id;
     String DoctorID;
     String WeekDay;
     int StartingTime;
@@ -25,7 +25,7 @@ public class WorkWeek {
 
     //constructor with parameters
     public WorkWeek(int ID, String DocID, String Day, int StartTime, int FinishTime) {
-        Identification = ID;
+        id = ID;
         DoctorID = DocID;
         WeekDay = Day;
         StartingTime = StartTime;
