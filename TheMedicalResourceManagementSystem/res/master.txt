@@ -1,0 +1,100 @@
+Freddie Geelan,5730 Rusk Crossing,Telephone,Cardiology
+Marty Denham,495 Pepper Wood Street,Facetime,Cardiology
+Ross Wyvill,24 Mariners Cove Court,Facetime,Cardiology
+Maisie Joder,2 Sachtjen Alley,Skype,Cardiology
+Waldo Roeby,40 International Terrace,Telephone,Cardiology
+Mead Penketh,9 International Lane,Skype,Cardiology
+Bordie Horsey,4 Duke Pass,Telephone,Cardiology
+Monty Di Pietro,1862 Grayhawk Alley,Skype,Cardiology
+Ginny Pattrick,378 Harbort Place,Facetime,Cardiology
+Alberik Pranger,70 Clarendon Circle,Skype,Cardiology
+Baxy Wardhough,131 International Plaza,Telephone,Hematology
+Amos Whitley,058 Parkside Park,Skype,Hematology
+Karlotta Awton,99 Annamark Terrace,Facetime,Hematology
+Laurene Brunger,62 West Junction,Telephone,Hematology
+Sal Spikings,690 Muir Place,Skype,Hematology
+Herold Natt,936 Clove Court,Telephone,Hematology
+Modestine Ferreres,716 Grim Way,Facetime,Hematology
+Orsola Flecknell,74201 Lakewood Plaza,Skype,Hematology
+Fiona Wychard,97 Vermont Court,Telephone,Hematology
+Henrieta Farnham,611 Scoville Place,Skype,Hematology
+Starlin Gerish,611 Garrison Parkway,Facetime,Infectious Disease
+Terri Whieldon,7 Bayside Court,Skype,Infectious Disease
+Hector Rief,57 Delladonna Drive,Telephone,Infectious Disease
+Kyle Vogelein,2757 Clyde Gallagher Road,Telephone,Infectious Disease
+Crystie Zahor,1521 Aberg Terrace,Facetime,Infectious Disease
+Issy Cloonan,426 Kennedy Court,Skype,Infectious Disease
+Francoise Binstead,271 Truax Plaza,Telephone,Infectious Disease
+Roanna Kaines,70 Clyde Gallagher Plaza,Facetime,Infectious Disease
+Clint Weldrake,534 Shasta Terrace,Telephone,Infectious Disease
+Carree Union,35 Butternut Trail,Skype,Infectious Disease
+Alex Turnbull,3 Hoepker Plaza,Telephone,Intensive Care Medicine
+Clark Smith,7668 Norway Maple Trail,Facetime,Intensive Care Medicine
+John Wayne,9 Gerald Street,Skype,Intensive Care Medicine
+Mark Zucker,264 Coolidge Junction,Skype,Intensive Care Medicine
+Penny Pound,49256 Harbort Pass,Facetime,Intensive Care Medicine
+Sarah Young,339 Monterey Road,Telephone,Intensive Care Medicine
+Ben Holmes,5 Delaware Way,Facetime,Intensive Care Medicine
+Megan Rooney,592 Green Ridge Point,Telephone,Intensive Care Medicine
+Clare Jones,963 Namekagon Way,Skype,Intensive Care Medicine
+Katie Mahone,312 Dovetail Plaza,Facetime,Intensive Care Medicine
+Patrick Green,831 Northridge Hill,Facetime,Neurology
+Margret Jones,704 Mccormick Way,Skype,Neurology
+Claretta Harbinson,2838 Talmadge Place,Telephone,Neurology
+Rebekah Haggan,639 Pond Junction,Facetime,Neurology
+Shirlene Gannon,5 Cody Road,Skype,Neurology
+Alice Coulter,47 Fieldstone Alley,Telephone,Neurology
+Luke Harvey,18 Independence Alley,Facetime,Neurology
+Ian Williams,7107 Bartillon Point,Skype,Neurology
+Mark Markle,6 Carberry Crossing,Skype,Neurology
+Gavin Smith,324 Mendota Park,Telephone,Neurology
+Raymond Johnston,7015 Ridgeview Road,Skype,Opthalmology
+Jean Waters,434 Raven Way,Facetime,Opthalmology
+Alex Cormier,92 Orin Center,Skype,Opthalmology
+Jordan Mcgregor,55569 Continental Terrace,Telephone,Opthalmology
+Darren Aldo,90 Lakewood Gardens Circle,Telephone,Opthalmology
+Amy Tervet,8504 Schiller Avenue,Skype,Opthalmology
+Isabella Douglas,9 Harper Pass,Facetime,Opthalmology
+Bethany Butler,24996 Forest Lane,Telephone,Opthalmology
+Karen Thompson,4008 Nobel Center,Facetime,Opthalmology
+June Young,2 Eagle Crest Way,Skype,Opthalmology
+Barbabra Miller,421 Bultman Circle,Telephone,Orthopedics
+Abby Brown,48 Sloan Way,Skype,Orthopedics
+Luke O'Moylan,3187 Sachs Way,Facetime,Orthopedics
+Ryan Enderwick,3 Killdeer Drive,Telephone,Orthopedics
+Allison Mckee,7862 Linden Alley,Skype,Orthopedics
+Yasmin Scullion,97 David Court,Facetime,Orthopedics
+Brian Hare,93 Anderson Court,Telephone,Orthopedics
+Stephen Walker,54463 Hoffman Point,Skype,Orthopedics
+Brooke Ferguson,6487 Lawn Parkway,Facetime,Orthopedics
+Nathan Rowan,17145 Center Point,Telephone,Orthopedics
+Corrie Warmisham,38 Delladonna Alley,Skype,Pulmonology
+Delora Fitton,227 Union Pass,Facetime,Pulmonology
+Otes Rosensaft,260 Heffernan Hill,Telephone,Pulmonology
+Parnell Goaks,5854 Anthes Point,Facetime,Pulmonology
+Nanon Blannin,16 Victoria Way,Skype,Pulmonology
+Norean Dall,8559 Clemons Way,Telephone,Pulmonology
+Val Corkan,4369 Eastwood Parkway,Facetime,Pulmonology
+Dallas Sivorn,343 Sauthoff Trail,Skype,Pulmonology
+Idalia Shales,7992 Stoughton Lane,Skype,Pulmonology
+Gannon Matashkin,458 Parkside Place,Facetime,Pulmonology
+Andrew Kane,7612 Harper Parkway,Skype,Surgery
+Kimberly Welbeck,6389 Mosinee Drive,FaceTime,Surgery
+Jenny Keane,3680 Kedzie Terrace,Telephone,Surgery
+Gary O'Neil,688 Delladonna Place,Telephone,Surgery
+Penny Trippier,3015 Katie Trail,Skype,Surgery
+Davie Heaton,63486 American Pass,Telephone,Surgery
+Jill Giggs,7520 Portage Terrace,Facetime,Surgery
+Hollie Gerrard,1851 Novick Alley,Skype,Surgery
+Glen Wilshire,10 Talmadge Way,Skype,Surgery
+Donna Smith,2899 Almo Court,Telephone,Surgery
+Clare Barnet,88 West Plaza,Skype,Urology
+Alice Sterling,702 Saint Paul Pass,Skype,Urology
+Arnold Pitt,8543 Packers Court,Telephone,Urology
+Connor Dokherty,0479 Independence Pass,Facetime,Urology
+Chris Thompson,910 Caliangt Drive,Telephone,Urology
+Sophie Conway,18 Rigney Alley,Facetime,Urology
+Zoe Chapa,9 Briar Crest Park,Skype,Urology
+Ross Jones,0 Packers Junction,Facetime,Urology
+Jack Black,5 Burning Wood Junction,Telephone,Urology
+Kirsty Rose,810 Chinook Way,Telephone,Urology
