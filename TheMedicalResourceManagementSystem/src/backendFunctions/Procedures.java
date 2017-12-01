@@ -15,7 +15,7 @@ import java.io.BufferedWriter;
 public class Procedures {
 
     public void writeText(String name, String address, String contact, String discipline) throws Exception {
-        FileWriter fw = new FileWriter("res\\sample.txt", true);
+        FileWriter fw = new FileWriter("res\\DoctorsDetails.txt", true);
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(name);
         bw.write(" ");

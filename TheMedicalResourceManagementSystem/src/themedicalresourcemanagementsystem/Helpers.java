@@ -7,7 +7,9 @@
 package themedicalresourcemanagementsystem;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -129,5 +131,18 @@ public class Helpers
             //docs = ***returned docs***
         
         return null;
+    }
+    public void addDoctor(String name, String address, String contact, String discipline) throws Exception {
+        FileWriter fw = new FileWriter("C:\\DoctorImportFiles\\DoctorsDetails.txt", true);
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(name);
+        bw.write(" ");
+        bw.write(address);
+        bw.write(" ");
+        bw.write(contact);
+        bw.write(" ");
+        bw.write(discipline);
+        bw.newLine();
+        bw.close();
     }
 }

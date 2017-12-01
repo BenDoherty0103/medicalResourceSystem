@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package MRMS_testing;
 
 import java.util.*;
@@ -17,17 +16,25 @@ import themedicalresourcemanagementsystem.Objects.WorkWeek;
  * @author Lyndon
  */
 public class Main {
+
     public static void main(String[] args) {
         //N.B. doctor import files are here C:\DoctorImportFiles
-        
+
         //build the data
         Helpers help = new Helpers();
-        Scanner keyb = new Scanner(System.in);
+        Scanner keyb = new Scanner(System.in).useDelimiter("\n");
         ArrayList<String> medDisc = help.buildMedicalDisciplines();
         ArrayList<Doctors> docs = help.buildDoctorDetails();
-        ArrayList<Calls> calls = new ArrayList<Calls>();
-        ArrayList<WorkWeek> ww = new ArrayList<WorkWeek>();
+        ArrayList<Calls> calls = new ArrayList<>();
+        ArrayList<WorkWeek> ww = new ArrayList<>();
+        //end building data
         
+        //variable instantiation
+        String name;
+        String address;
+        String contactPreferences;
+        String discipline;
+
         boolean exit = false;
 
         while (exit != true) {
@@ -38,7 +45,7 @@ public class Main {
                 switch (intInput) {
                     case 1:
                         System.out.println("------Create New Call Log-----");
-                        
+
                         break;
                     case 2:
                         System.out.println("------View All Doctors-----");
@@ -48,15 +55,36 @@ public class Main {
                         System.out.println("-----De Register Doctor-----");
                         keyb.nextLine();
                         System.out.println("What is the Doctor's Name?");
-                        String name = keyb.nextLine();
+                        name = keyb.nextLine();
                         Doctors d = help.getDoctorByName(name, docs);
                         help.deregisterDoctor(d, docs);
                         break;
                     case 4:
                         System.out.println("-----Update Work Week selected-----");
-                        
+
                         break;
                     case 5:
+                        System.out.println("Please enter the following:\n");
+                        System.out.println("Full Name: ");
+                        name = keyb.next();
+                        System.out.println("Address: ");
+                        address = keyb.next();
+                        System.out.println("Prefered means of contact: ");
+                        contactPreferences = keyb.next();
+                        boolean Contact = false;
+                        while (!Contact) {
+                            if (contactPreferences.equals("telephone") || contactPreferences.equals("Skype") || contactPreferences.equals("FaceTime")) {
+                                Contact = true;
+                            } else {
+                                System.out.println("ERROR: Entered String does not match one of the three options. Please try again.");
+                                contactPreferences = keyb.next();
+                            }
+                        }
+                        System.out.println("Please enter a medical discipline: ");
+                        discipline = keyb.next();
+                        help.addDoctor(name, address, contactPreferences, discipline);
+                        break;
+                    case 6:
                         System.out.println("Goodbye see you next time :]");
                         exit = true;
                         break;
@@ -69,31 +97,28 @@ public class Main {
                 keyb.next();
             }
         }//end of while
-        
-        
+
         //create Doctors text file (see below)                  
-           
         //Doctors - methods
-                //getDoctorsByMedicalDiscipline  
-            //1,Joe Bloggs,123 Fake Street,0204952093452,2,2017/09/11,true
-            //1,Joe Bloggs,123 Fake Street,0204952093452,2,2017/09/11,false
-        
+        //getDoctorsByMedicalDiscipline  
+        //1,Joe Bloggs,123 Fake Street,0204952093452,2,2017/09/11,true
+        //1,Joe Bloggs,123 Fake Street,0204952093452,2,2017/09/11,false
         //run the menu system
-            //Create a call
-                //Find suitable doctor who is available
-                //display suitable doctors to use and let use choose doctor
-            //View Doctors and mark as inactive
-            //Update the work week of doctors
-                //Check current workday and only update after current Workday
+        //Create a call
+        //Find suitable doctor who is available
+        //display suitable doctors to use and let use choose doctor
+        //View Doctors and mark as inactive
+        //Update the work week of doctors
+        //Check current workday and only update after current Workday
     }// end of psvm
-    
+
     public static void runMenu() {
         System.out.println("*****Welcome*****");
-        System.out.println("1. Log a new call\n" 
-                + "2. View Doctors\n" 
-                + "3. De Register Doctor\n" 
-                + "4. Update Work week\n" 
+        System.out.println("1. Log a new call\n"
+                + "2. View Doctors\n"
+                + "3. De Register Doctor\n"
+                + "4. Update Work week\n"
                 + "5. Exit");
     }//end runMenu
-    
+
 }//end of class
