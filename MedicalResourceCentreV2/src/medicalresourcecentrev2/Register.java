@@ -5,6 +5,10 @@
  */
 package medicalresourcecentrev2;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author weej1
@@ -91,6 +95,11 @@ public class Register extends javax.swing.JFrame {
         });
 
         btnSubmit.setText("Submit");
+        btnSubmit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSubmitActionPerformed(evt);
+            }
+        });
 
         cmbContact.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Telephone", "Facetime", "Skype", " " }));
 
@@ -201,6 +210,29 @@ public class Register extends javax.swing.JFrame {
     private void txtAddressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAddressActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtAddressActionPerformed
+
+    private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
+        String name = txtName.getText();
+        String address = txtAddress.getText();
+        String contact = cmbContact.getSelectedItem().toString();
+        String discipline = cmbDiscipline.getSelectedItem().toString();
+        //String certification = txtDate.getText();
+        
+        try{
+        FileWriter fw = new FileWriter("resources\\DoctorsDetails.txt", true);
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(name);
+        bw.write(" ");
+        bw.write(address);
+        bw.write(" ");
+        bw.write(contact);
+        bw.write(" ");
+        bw.write(discipline);
+        bw.newLine();
+        bw.close();
+        JOptionPane.showMessageDialog(null, "Doctor Successfully Inputted");}
+        catch(Exception ex){txtDate.setText(ex.toString());};
+    }//GEN-LAST:event_btnSubmitActionPerformed
 
     /**
      * @param args the command line arguments
